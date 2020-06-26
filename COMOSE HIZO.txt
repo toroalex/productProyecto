@@ -1,0 +1,21 @@
+SE TOMO DE LA SIGUIENTE PÁGINA https://appdividend.com/2019/06/04/angular-8-tutorial-with-example-learn-angular-8-crud-from-scratch/
+
+1. Aceptamos en Routing cuando nos pregunte Angular al crear el proyecto 
+
+2. Instalamos bootstrap :  npm install bootstrap --save
+editamos angular.json file.  :  
+
+"styles": [
+   "src/styles.css",
+   "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+ ],
+
+3. creamos los siguientes componentes 
+
+ng g c product-add --skipTests=true
+ng g c product-get --skipTests=true
+ng g c product-edit --skipTests=true
+
+4. Editamos el app-routing.module.ts  para colocar las rutas
+
+5. 
